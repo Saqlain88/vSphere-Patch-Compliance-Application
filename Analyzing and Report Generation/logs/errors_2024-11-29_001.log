@@ -1,0 +1,62 @@
+Date: 2024-11-29 10:49:24
+Level: Error
+ThreadId: 1
+Server: DESKTOP-MUQM2NA
+Category: NotSpecified: (:) [Invoke-PodeScriptBlock], RuntimeException
+Message: Attempted to divide by zero.
+StackTrace: at <ScriptBlock>, C:\Users\user\Documents\Work\PowerShell\vSPCT\Analyzing and Report Generation\pages\hostchart.ps1: line 60
+at Invoke-PodeScriptBlock, C:\Users\user\Documents\Work\PowerShell\vSPCT\Analyzing and Report Generation\lib\Pode\2.8.0\Public\Utilities.ps1: line 551
+at <ScriptBlock>, <No file>: line 6
+at Invoke-PodeScriptBlock, C:\Users\user\Documents\Work\PowerShell\vSPCT\Analyzing and Report Generation\lib\Pode\2.8.0\Public\Utilities.ps1: line 543
+at <ScriptBlock>, <No file>: line 106
+
+Date: 2024-11-29 10:49:24
+Level: Error
+ThreadId: 1
+Server: DESKTOP-MUQM2NA
+Category: System.Management.Automation
+Message: Attempted to divide by zero.
+StackTrace:    at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at Invoke-PodeScriptBlock(Closure, FunctionContext)
+   at System.Management.Automation.PSScriptCmdlet.RunClause(Action`1 clause, Object dollarUnderbar, Object inputToProcess)
+   at System.Management.Automation.CommandProcessorBase.Complete()
+
+Date: 2024-11-29 10:49:24
+Level: Error
+ThreadId: 1
+Server: DESKTOP-MUQM2NA
+Category: 
+Message: Attempted to divide by zero.
+StackTrace: 
+
+Date: 2024-11-29 10:49:26
+Level: Error
+ThreadId: 1
+Server: DESKTOP-MUQM2NA
+Category: NotSpecified: (:) [Invoke-PodeScriptBlock], RuntimeException
+Message: Attempted to divide by zero.
+StackTrace: at <ScriptBlock>, C:\Users\user\Documents\Work\PowerShell\vSPCT\Analyzing and Report Generation\pages\hostchart.ps1: line 60
+at Invoke-PodeScriptBlock, C:\Users\user\Documents\Work\PowerShell\vSPCT\Analyzing and Report Generation\lib\Pode\2.8.0\Public\Utilities.ps1: line 551
+at <ScriptBlock>, <No file>: line 6
+at Invoke-PodeScriptBlock, C:\Users\user\Documents\Work\PowerShell\vSPCT\Analyzing and Report Generation\lib\Pode\2.8.0\Public\Utilities.ps1: line 543
+at <ScriptBlock>, <No file>: line 106
+
+Date: 2024-11-29 10:49:26
+Level: Error
+ThreadId: 1
+Server: DESKTOP-MUQM2NA
+Category: System.Management.Automation
+Message: Attempted to divide by zero.
+StackTrace:    at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at Invoke-PodeScriptBlock(Closure, FunctionContext)
+   at System.Management.Automation.PSScriptCmdlet.RunClause(Action`1 clause, Object dollarUnderbar, Object inputToProcess)
+   at System.Management.Automation.CommandProcessorBase.Complete()
+
+Date: 2024-11-29 10:49:26
+Level: Error
+ThreadId: 1
+Server: DESKTOP-MUQM2NA
+Category: 
+Message: Attempted to divide by zero.
+StackTrace: 
+

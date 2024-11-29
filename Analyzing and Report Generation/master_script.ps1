@@ -79,7 +79,7 @@ $all_host | Sort-Object Host -Unique | Export-Csv -Path "$ConfigPath\all_hosts.c
 $all_hardware | Sort-Object Name -Unique | Export-Csv -Path "$ConfigPath\all_hardwares.csv" -Append -NoTypeInformation -ErrorAction Stop
 $all_vcenter | Sort-Object Name -Unique  | Export-Csv -Path "$ConfigPath\all_vcenters.csv" -Append -NoTypeInformation -ErrorAction Stop
 
-$all | Move-Item -Destination $OldReportPath  -Force -ErrorAction Stop
+$all | Move-Item -Destination $OldReportPath -Force -ErrorAction Stop
 
 <# 
     ..........

@@ -9,7 +9,7 @@ Try{
 
     $scriptPath = "$lib_path\ReportHTML"
     $LeftLogo_Path = "$path\small_logo_report.png"  
-    $leftlogo = "data:image/png;base64, " + [convert]::ToBase64String((get-content $LeftLogo_Path -AsByteStream)) # replace < -AsByteStream> with < -Encoding byte >, incase of parameter not found error
+    $leftlogo = "data:image/png;base64, " + [convert]::ToBase64String((get-content $LeftLogo_Path -Encoding byte)) # replace < -AsByteStream> with < -Encoding byte >, incase of parameter not found error
 
     $export_path = Join-Path (Get-PodeServerPath) "report"
        
